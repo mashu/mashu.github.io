@@ -1,0 +1,4 @@
+Sitemap: https://mashu.github.io/sitemap.xml
+
+User-agent: *
+Disallow:
