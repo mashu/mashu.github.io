@@ -25,5 +25,40 @@ website_url   = "https://mashu.github.io/"
 <!--
 Add here global latex commands to use throughout your pages.
 -->
+\newcommand{\text}[1]{#1}  <!-- Base text command -->
 \newcommand{\R}{\mathbb R}
 \newcommand{\scal}[1]{\langle #1 \rangle}
+<!--
+Add KaTeX support for mathbf etc
+-->
+\newcommand{\mathbf}[1]{\text{#1}}
+\newcommand{\bf}[1]{\text{#1}}
+\newcommand{\textbf}[1]{\text{#1}}
+\newcommand{\boldsymbol}[1]{\text{#1}}
+\newcommand{\alpha}{α}
+\newcommand{\beta}{β}
+\newcommand{\gamma}{γ}
+\newcommand{\delta}{δ}
+\newcommand{\epsilon}{ε}
+\newcommand{\zeta}{ζ}
+\newcommand{\eta}{η}
+\newcommand{\theta}{θ}
+\newcommand{\iota}{ι}
+\newcommand{\kappa}{κ}
+\newcommand{\lambda}{λ}
+\newcommand{\mu}{μ}
+\newcommand{\nu}{ν}
+\newcommand{\xi}{ξ}
+\newcommand{\pi}{π}
+\newcommand{\rho}{ρ}
+\newcommand{\sigma}{σ}
+\newcommand{\tau}{τ}
+\newcommand{\upsilon}{υ}
+\newcommand{\phi}{φ}
+\newcommand{\chi}{χ}
+\newcommand{\psi}{ψ}
+\newcommand{\omega}{ω}
+\newcommand{\Sigma}{\sigma}
+\newcommand{\sum}{\Sigma}
+\newcommand{\limits}{}
+
